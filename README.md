@@ -13,6 +13,6 @@
 <h3 align="center">Languages and Tools:</h3>
 <p align="center">
   <a href="https://github.com/novapix?tab=repositories">
-    <img src="https://skillicons.dev/icons?i=git,cpp,docker,c,python" />
+    <img src="https://skillicons.dev/icons?i=git,bash,cpp,docker,c,python,dart,arch" />
   </a>
 </p>
