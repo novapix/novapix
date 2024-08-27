@@ -2,13 +2,13 @@
 <h3 align="center">An undergraduate student from Nepal</h3>
 <br>
 
-- 🌱 I’m currently learning **Dart**
+- 🌱 I’m currently learning **Svelte**
   
 - ⚡ Fun fact **I've got 99 problems, but my code ain't one. (Okay, maybe it's like 98 problems...)**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/parakram04" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="parakram04" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/parakramkharel" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="parakramkharel" height="30" width="40" /></a>
 <a href="https://www.leetcode.com/novapix" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="novapix" height="30" width="40" /></a>
 </p>
 
