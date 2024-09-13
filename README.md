@@ -19,5 +19,8 @@
   </a>
 </p>
 
-<p><img align="center" src="https://github-readme-stats-five-ashy-35.vercel.app/api/top-langs/?username=novapix&layout=compact&theme=blue-green" alt="novapix" /></p>
+
+[![](https://raw.githubusercontent.com/novapix/novapix/main/profile-summary-card-output/algolia/0-profile-details.svg)](https://github.com/novapix)
+[![](https://raw.githubusercontent.com/novapix/novapix/main/profile-summary-card-output/algolia/1-repos-per-language.svg)](https://github.com/novapix?tab=repositories) [![](https://raw.githubusercontent.com/novapix/novapix/main/profile-summary-card-output/algolia/2-most-commit-language.svg)](https://github.com/novapix?tab=repositories)
+[![](https://raw.githubusercontent.com/novapix/novapix/main/profile-summary-card-output/algolia/3-stats.svg)](https://github.com/novapix) [![](https://raw.githubusercontent.com/novapix/novapix/main/profile-summary-card-output/algolia/4-productive-time.svg)](https://github.com/novapix)
 
