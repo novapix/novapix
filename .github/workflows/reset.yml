@@ -1,0 +1,31 @@
+name: Reset Commit History
+
+on:
+  workflow_dispatch:  
+jobs:
+  reset_history:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v2
+        with:
+          ref: main 
+
+      - name: Set up Git
+        run: |
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
+
+      - name: Reset the repository to a new initial commit
+        run: |
+          git checkout --orphan temp_branch                 
+          git commit --allow-empty -m "Initial commit"   
+          git branch -D main                               
+          git branch -m main                                
+          git push --force origin main                      
+        env:
+          GITHUB_TOKEN: ${{ github.token }}        
+
+      - name: Verify
+        run: echo "History reset successfully"
