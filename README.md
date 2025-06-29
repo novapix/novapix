@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm Parakram</h1>
 <h3 align="center">An undergraduate student from Nepal</h3>
 <br>
-
-- 🌱 I’m currently learning **Svelte**
   
 - ⚡ Fun fact **I've got 99 problems, but my code ain't one. (Okay, maybe it's like 98 problems...)**
 
