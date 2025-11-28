@@ -1,0 +1,36 @@
+name: Reset Main Branch History
+on:
+  workflow_dispatch: # manual trigger only
+
+jobs:
+  reset-history:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout full repo
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # Configure Git
+      - name: Git config
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+
+      # Create new orphan branch and commit all files
+      - name: Reset master branch
+        run: |
+          git checkout --orphan new-main
+          git add -A
+          
+          GIT_AUTHOR_DATE="$(date -d '10 days ago')" \
+          GIT_COMMITTER_DATE="$(date -d '10 days ago')" \
+          git commit -m "Initial commit"
+          
+          git branch -D main
+          git branch -m main
+          
+          git push --force https://x-access-token:${{ github.token }}@github.com/${{ github.repository }} main
+
